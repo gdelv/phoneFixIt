@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 import './styles/Nav.css'
+import { Title } from '../components/Title'
+import { Description } from "../components/Description";
 
 const logoPic = require('../images/robot1.jpg')
 
@@ -64,21 +66,23 @@ class Nav extends React.Component {
     renderMainLinks() {
         return (
             <nav style={{ opacity: this.state.opacity }}>
-                <NavLink exact to='/'>
-                    <img src={logoPic} className='logo' alt='logo' />
-                </NavLink>
-                <div className="title">
-                    <h1>Phonefixit.com</h1>
-                    <h3>The Phone & Tablet Repair Experts</h3>
-                    <h3>Long Island #1 Repair Shop!</h3>
-                </div>
-                <div id='wrapper' onClick={() => this.handleModal()}>
-                    <div className={this.state.buttonClassName}>
-                        <span className='line top'></span>
-                        <span className='line middle'></span>
-                        <span className='line bottom'></span>
+                <div className="top-container">
+                        <NavLink exact to='/'>
+                        <img src={logoPic} className='logo' alt='logo' />
+                    </NavLink>
+                    
+                    
+                    <Title />
+                    <div id='wrapper' onClick={() => this.handleModal()}>
+                        <div className={this.state.buttonClassName}>
+                            <span className='line top'></span>
+                            <span className='line middle'></span>
+                            <span className='line bottom'></span>
+                        </div>
                     </div>
                 </div>
+
+                <Description />
             </nav>
         )
     }
