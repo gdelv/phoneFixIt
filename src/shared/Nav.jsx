@@ -67,7 +67,7 @@ class Nav extends React.Component {
         return (
             <nav style={{ opacity: this.state.opacity }}>
                 <div className="top-container">
-                        <NavLink exact to='/'>
+                    <NavLink exact to='/'>
                         <img src={logoPic} className='logo' alt='logo' />
                     </NavLink>
                     
