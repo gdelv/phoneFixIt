@@ -1,0 +1,61 @@
+.open-modal {
+    min-height: 50px;
+    min-width: 40px;
+    max-height: 70px;
+    border: 1px solid #03aadd;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    position: relative;
+    left: -1em;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locator-button {
+    left: 25%;
+    min-height: 40px;
+    max-height: 40px;
+    width: 50%;
+    position: relative;
+    top: -139vh;
+    z-index: 2000;
+    background-color: #03aadd;
+    color: white;
+    font-size: 18px;
+    border: none;
+    /* opacity: .9; */
+}
+
+.need-help-button {
+    left: 15%;
+    min-height: 40px;
+    max-height: 40px;
+    width: 70%;
+    position: relative;
+    top: 0vh;
+    background-color: #03aadd;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.animatedPics-button {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: 1px solid white;
+    background-color: #ff7200;
+    width: fit-content;
+    height: 50px;
+    position: relative;
+    z-index: 1;
+    top: -51vh;
+    display: block;
+    padding: 0em 1em;
+    margin: 0 auto;
+    /* left: 25%; */
+}

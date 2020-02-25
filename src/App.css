@@ -1,0 +1,247 @@
+/* CAREERS PAGE */
+.careers-container {
+  position: relative;
+  /* top: 20vh; */
+}
+
+.careers-container h2 {
+  position: relative;
+  top: 17vh;
+  padding: 0em;
+  margin: 0em;
+  text-align: center;
+  font-weight: 700;
+  color: black;
+  /* border: 1px solid red; */
+}
+
+.job-card {
+  position: relative;
+  /* top: 20vh; */
+  margin: 0 1em;
+  padding: .5em 0em;
+  border-bottom: 1px solid lightgray;
+}
+
+.job-card a {
+  text-decoration: none;
+  color: #019edb;
+  font-weight: 600;
+}
+
+.job-card a, h5 {
+  margin: 0em;
+}
+
+.job-card h5 {
+  margin-top: .2em;
+}
+
+.job-container {
+  position: relative;
+  top: 20vh;
+  min-height: 350px;
+  max-height: 350px;
+  /* border: 5px solid red; */
+  overflow: auto;
+  margin: 0em;
+  padding: 0 1em;
+}
+
+.corporate-sales-container {
+  position: relative;
+  text-align: center;
+  top: 15vh;
+  margin: 0em;
+  /* border: 1px solid red; */
+}
+.corporate-sales-container p {
+  padding: 1em;
+  font-size: 16px;
+
+}
+
+
+.form-container {
+  background-image: url('./images/corp-background.jpg');
+  background-position: bottom;
+  background-size: cover;
+}
+.form-container h3 {
+  padding-top: 2em;
+}
+/* CAROUSEL */
+
+/* .carousel { */
+  /* position: relative; */
+  /* top: 12vh; */
+  /* min-height: 88vh; */
+  /* border: 1px solid red; */
+/* } */
+
+.carousel img {
+  min-height: 100vh;
+  max-width: 100%;
+}
+.thumbs-wrapper {
+  display: none;
+  height: 0;
+  margin: 0;
+  padding: 0;
+  border: 1px solid green;
+}
+
+.carousel-overlay {
+  position: relative;
+  top: -100vh;
+  min-height: 100vh;
+  background-color: black;
+  opacity: .4;
+  z-index: 999;
+}
+
+/* main {
+  /* min-height: 1500px; */
+  /* max-height: 1500px; */
+
+
+.about h2 {
+  color: #019edb;
+  font-size: 26px;
+  font-weight: 800;
+  text-align: center;
+  left: 5%;
+  width: 90%;
+
+}
+.about p {
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-align: start;
+  line-height: 25px;
+  color: black;
+}
+.about {
+  max-height: 80px;
+  position: relative;
+  top: -130vh;
+  z-index: 2000;
+  color: white;
+}
+.att-landing-logo {
+  /* display: inline; */
+  left: 20%;
+  max-height: 80px;
+  width: 60%;
+  position: relative;
+  top: -140vh;
+  z-index: 2000;
+}
+
+.landing-para {
+  left: 5%;
+  max-height: 80px;
+  width: 90%;
+  position: relative;
+  top: -138vh;
+  z-index: 2000;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -10vh;
+  height: 110vh;
+  border-bottom: solid 1px lightgrey;
+}
+
+.map-container div:nth-child(2) {
+  position: relative !important;
+}
+
+
+.store-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  overflow: scroll;
+}
+
+.store-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 80%;
+  margin: .5em 0;
+  padding: .5em;
+  border-radius: .5em;
+  border: solid 1px lightgrey;
+
+}
+
+.store-card p {
+  font-size: 14px;
+  padding: 0px;
+  color: black;
+}
+
+.store-card a {
+  color: #009edb
+}
+
+.find-store-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -20vh
+}
+
+.find-store-container div:nth-child(2) {
+  /* border: 2px solid lightgrey; */
+  display: flex;
+  flex-direction: column;
+  background: #ebebeb;
+  padding: 30px;
+}
+.find-button {
+  border: 1px solid #fff;
+  padding: 5px 25px;
+  font-size: 18px;
+  background: rgb(255, 114, 0);
+  color: #fff;
+  margin-bottom: 1em;
+}
+.find-store-container p {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+  color: black;
+  margin-top: 10px;
+  margin-left: -1em;
+
+}
+
+.find-store-container select {
+  margin-bottom: 2em;
+}
+
+
+.search-bar {
+
+  padding: 8px;
+  border: 1px solid white;
+}
+
+.find-store-container h1 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  border-top: 1px solid lightgrey;
+  padding-top: .5em;
+}

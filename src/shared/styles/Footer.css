@@ -1,0 +1,114 @@
+
+footer {
+    position: relative;
+    top: 30vh;
+}
+.footer-wrapper {
+    display: flex;
+    border: 2px solid black;
+    text-align: center;
+}
+
+.background {
+    background-image: url('https://www.fusionwireless.com/wordpress/wp-content/themes/html5blank-stable/img/bg-footer.jpg');
+    background-size: cover;
+    padding: 20px;
+}
+
+
+.att-logo {
+    min-height: 40px;
+    max-height: 40px;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    border-bottom: 2px solid grey;
+}
+/* .logo-container svg {
+    /* color: white; */
+
+.menu-container {
+    list-style: none;
+    color: white;
+    margin: .6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-left: 1.1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menu-container a {
+    text-decoration: none;
+    color: darkgray;
+    font-size: 18px;
+}
+
+.menu-container li p {
+    font-size: 1em;
+}
+
+h3 {
+    color: #00aeef;
+}
+
+h2 {
+    color: #ff7200
+
+}
+
+.copyright h2 {
+    font-weight: 400;
+}
+
+.copyright p {
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.copyright img {
+    padding: 50px 0px 100px;
+    width: 160px;
+    height: 77px;
+}
+
+p {
+    font-size: 1.5rem;
+    padding: 0 15px;
+    margin-top: 0px;
+    
+    color: #6e6e6e;
+}
+.top-container {
+    /* width: 70%; */
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px 0px;
+}
+.top-container p {
+    font-size: 22px;
+}
+
+.logo-container {
+    display: flex;
+}
+
+.link {
+    background-color: #00aeef;
+    color: white;
+    letter-spacing: 2px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
