@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 import './styles/Nav.css'
 import { Title } from '../components/Title'
 import { Description } from "../components/Description";
+import { Hamburger } from "../shared/Hamburger";
 
 const logoPic = require('../images/robot1.jpg')
 
@@ -58,6 +59,7 @@ class Nav extends React.Component {
                     <NavLink exact to='/#contact-us' onClick={() => this.handleModal()}>
                         Locations
                     </NavLink>
+
                 </div>
             )
         }
@@ -70,16 +72,17 @@ class Nav extends React.Component {
                     <NavLink exact to='/'>
                         <img src={logoPic} className='logo' alt='logo' />
                     </NavLink>
-                    
-                    
+
+
                     <Title />
-                    <div id='wrapper' onClick={() => this.handleModal()}>
+                    {/* <div id='wrapper' onClick={() => this.handleModal()}>
                         <div className={this.state.buttonClassName}>
                             <span className='line top'></span>
                             <span className='line middle'></span>
                             <span className='line bottom'></span>
                         </div>
-                    </div>
+                    </div> */}
+                    <Hamburger onClick={()=>this.handleModal()} className={this.state.buttonClassName}/>
                 </div>
 
                 <Description />
